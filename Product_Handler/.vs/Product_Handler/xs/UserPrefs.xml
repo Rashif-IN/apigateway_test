@@ -2,15 +2,15 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Product_Handler/Startup.cs">
     <Files>
       <File FileName="Product_Handler/App/Interface/IContext.cs" Line="13" Column="40" />
-      <File FileName="Product_Handler/Controllers/AuthController.cs" Line="1" Column="1" />
-      <File FileName="Product_Handler/Controllers/ProductController.cs" Line="48" Column="1" />
-      <File FileName="Product_Handler/Startup.cs" Line="1" Column="1" />
+      <File FileName="Product_Handler/Controllers/AuthController.cs" />
+      <File FileName="Product_Handler/Controllers/ProductController.cs" />
+      <File FileName="Product_Handler/Startup.cs" Line="74" Column="37" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Product_Handler" expanded="True">
-            <Node name="Product_Handler" expanded="True">
+            <Node name="Product_Handler" expanded="True" selected="True">
               <Node name="App" expanded="True">
                 <Node name="Interface" expanded="True" />
                 <Node name="Query" expanded="True" />
@@ -31,14 +31,13 @@
               </Node>
               <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Product__Handler FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Product__Handler PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
