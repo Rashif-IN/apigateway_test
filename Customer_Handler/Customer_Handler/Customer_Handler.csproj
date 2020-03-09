@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="App\" />
+    <Folder Include="App\Interface\" />
+    <Folder Include="App\Query\" />
+    <Folder Include="App\UseCase\" />
+    <Folder Include="App\UseCase\Customer\" />
+    <Folder Include="App\UseCase\CustomerPaymentCard\" />
+  </ItemGroup>
+</Project>
