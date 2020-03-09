@@ -10,9 +10,7 @@ namespace cqrs_Test.Application.Interfaces
     {
         public IContext(DbContextOptions<IContext> opt) : base(opt) { }
 
-        public DbSet<Customers> Customer { get; set; }
-        public DbSet<Products> Product { get; set; }
-        public DbSet<CustomerPaymentCards> CPC { get; set; }
+       
         public DbSet<Merchants> merhcants { get; set; }
     }
 }

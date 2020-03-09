@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 using cqrs_Test.Application.Interfaces;
-using Hangfire;
+
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
@@ -23,7 +23,7 @@ namespace cqrs_Test.Application.UseCase.Merchant.Queries.GetMerchant
 
             if (result != null)
             {
-                BackgroundJob.Enqueue(() => Console.WriteLine("Merchant successfully retrieved"));
+                
                 return new GetMerchantDto
                 {
                     Status = true,
@@ -33,7 +33,7 @@ namespace cqrs_Test.Application.UseCase.Merchant.Queries.GetMerchant
             }
             else
             {
-                BackgroundJob.Enqueue(() => Console.WriteLine("Merchant not found"));
+                
                 return null;
             }
 

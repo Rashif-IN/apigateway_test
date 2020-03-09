@@ -14,7 +14,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace cqrs_Test.Presenter.Controller
 {
     [ApiController]
-    [Authorize]
+    //[Authorize]
     [Route("merchant")]
     public class MerchantController : ControllerBase
     {

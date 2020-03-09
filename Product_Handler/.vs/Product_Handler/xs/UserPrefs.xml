@@ -1,9 +1,39 @@
 ﻿<Properties StartupConfiguration="{53CE6BB7-E995-4E1E-9269-7FCA6CDEC217}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Product_Handler/Startup.cs">
+    <Files>
+      <File FileName="Product_Handler/App/Interface/IContext.cs" Line="13" Column="40" />
+      <File FileName="Product_Handler/Controllers/AuthController.cs" Line="1" Column="1" />
+      <File FileName="Product_Handler/Controllers/ProductController.cs" Line="48" Column="1" />
+      <File FileName="Product_Handler/Startup.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Product_Handler" expanded="True" selected="True" />
+          <Node name="Product_Handler" expanded="True">
+            <Node name="Product_Handler" expanded="True">
+              <Node name="App" expanded="True">
+                <Node name="Interface" expanded="True" />
+                <Node name="Query" expanded="True" />
+                <Node name="UseCase" expanded="True">
+                  <Node name="Product" expanded="True">
+                    <Node name="Command" expanded="True">
+                      <Node name="DeleteProduct" expanded="True" />
+                      <Node name="PostProduct" expanded="True" />
+                      <Node name="PutProduct" expanded="True" />
+                    </Node>
+                    <Node name="Models" expanded="True" />
+                    <Node name="Queries" expanded="True">
+                      <Node name="GetProduct" expanded="True" />
+                      <Node name="GetProducts" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>

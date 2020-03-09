@@ -27,7 +27,7 @@ namespace Customer_Handler
         {
             services.AddControllers();
 
-            services.AddDbContext<IContext>(option => option.UseNpgsql("Host=localhost;Database=cqrs;Username=postgres;Password=docker;"));
+            services.AddDbContext<IContext>(option => option.UseNpgsql("Host=localhost;Database=micro1dbcustomer;Username=postgres;Password=docker;"));
 
             //services.AddHangfire(config => config.UsePostgreSqlStorage("Host=localhost;Database=hangdb;Username=postgres;Password=docker"));
 
