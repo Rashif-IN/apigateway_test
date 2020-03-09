@@ -1,7 +1,7 @@
 ﻿using System;
 
 using FluentValidation;
-using Hangfire;
+//using Hangfire;
 
 namespace cqrs_Test.Application.UseCase.Customer.Command.PostCustomer
 {

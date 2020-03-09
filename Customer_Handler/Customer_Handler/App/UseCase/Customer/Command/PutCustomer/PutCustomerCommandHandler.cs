@@ -3,7 +3,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using cqrs_Test.Application.Interfaces;
 using cqrs_Test.Application.Models.Query;
-using Hangfire;
+//using Hangfire;
 using MediatR;
 
 namespace cqrs_Test.Application.UseCase.Customer.Command.PutCustomer
@@ -20,7 +20,7 @@ namespace cqrs_Test.Application.UseCase.Customer.Command.PutCustomer
 
         public async Task<PutCustomerCommandDto> Handle(PutCustomerCommand request, CancellationToken cancellationToken)
         {
-            BackgroundJob.Enqueue(() => Console.WriteLine($"Put Customer Data {request.Dataa.Attributes.id}"));
+            //BackgroundJob.Enqueue(() => Console.WriteLine($"Put Customer Data {request.Dataa.Attributes.id}"));
             var customers = konteks.Customer.Find(request.Dataa.Attributes.id);
             customers.full_name = request.Dataa.Attributes.full_name;
             customers.username = request.Dataa.Attributes.username;

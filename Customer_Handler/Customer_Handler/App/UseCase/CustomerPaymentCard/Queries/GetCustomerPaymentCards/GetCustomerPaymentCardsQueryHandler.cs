@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 using cqrs_Test.Application.Interfaces;
-using Hangfire;
+//using Hangfire;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
@@ -21,7 +21,7 @@ namespace cqrs_Test.Application.UseCase.CustomerPaymentCard.Queries.GetCustomerP
         {
 
             var result = await konteks.CPC.ToListAsync();
-            BackgroundJob.Enqueue(() => Console.WriteLine("Customer payment card retrieved"));
+            //BackgroundJob.Enqueue(() => Console.WriteLine("Customer payment card retrieved"));
             return new GetCustomerPaymentCardsDto
             {
                 Status = true,

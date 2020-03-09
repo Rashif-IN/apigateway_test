@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 using cqrs_Test.Application.Interfaces;
-using Hangfire;
+//using Hangfire;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
@@ -23,7 +23,7 @@ namespace cqrs_Test.Application.UseCase.CustomerPaymentCard.Queries.GetCustomerP
 
             if (result != null)
             {
-                BackgroundJob.Enqueue(() => Console.WriteLine($"Customer payment card {request.Id} retrieved"));
+                //BackgroundJob.Enqueue(() => Console.WriteLine($"Customer payment card {request.Id} retrieved"));
                 return new GetCustomerPaymentCardDto
                 {
                     Status = true,
@@ -33,7 +33,7 @@ namespace cqrs_Test.Application.UseCase.CustomerPaymentCard.Queries.GetCustomerP
             }
             else
             {
-                BackgroundJob.Enqueue(() => Console.WriteLine("Customer payment card not found"));
+                //BackgroundJob.Enqueue(() => Console.WriteLine("Customer payment card not found"));
                 return null;
             }
             
