@@ -1,31 +1,8 @@
 ﻿<Properties StartupConfiguration="{F107ED41-95D9-4345-B71B-F9A13BD4F7C5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Customer_Handler/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Customer_Handler/Properties/launchSettings.json">
     <Files>
       <File FileName="Customer_Handler/App/Query/BaseDto.cs" Line="1" Column="1" />
-      <File FileName="Customer_Handler/App/UseCase/Customer/Command/DeleteCustomer/DeleteCustomerCommandDto.cs" Line="1" Column="1" />
-      <File FileName="Customer_Handler/App/UseCase/Customer/Command/DeleteCustomer/DeleteCustomerCommand.cs" Line="1" Column="1" />
-      <File FileName="Customer_Handler/App/UseCase/Customer/Command/DeleteCustomer/DeleteCustomerHandler.cs" Line="34" Column="16" />
-      <File FileName="Customer_Handler/App/UseCase/Customer/Command/PostCustomer/PostCustomerCommand.cs" Line="1" Column="1" />
-      <File FileName="Customer_Handler/App/UseCase/Customer/Command/PostCustomer/PostCustomerCommandDto.cs" Line="1" Column="1" />
-      <File FileName="Customer_Handler/App/UseCase/Customer/Command/PostCustomer/PostCustomerCommandHandler.cs" Line="37" Column="49" />
-      <File FileName="Customer_Handler/App/UseCase/Customer/Command/PutCustomer/PutCustomerCommand.cs" Line="1" Column="1" />
-      <File FileName="Customer_Handler/App/UseCase/Customer/Command/PutCustomer/PutCustomerCommandDto.cs" Line="1" Column="1" />
-      <File FileName="Customer_Handler/App/UseCase/Customer/Command/PutCustomer/PutCustomerCommandHandler.cs" Line="28" Column="68" />
-      <File FileName="Customer_Handler/App/UseCase/Customer/Queries/GetCustomer/GetCustomerQueryHandler.cs" Line="7" Column="26" />
-      <File FileName="Customer_Handler/App/UseCase/Customer/Queries/GetCustomers/GetCustomersQueryHandler.cs" Line="25" Column="39" />
-      <File FileName="Customer_Handler/App/UseCase/Customer/Queries/GetCustomers/GetCustomersQuery.cs" Line="1" Column="1" />
-      <File FileName="Customer_Handler/App/UseCase/Customer/Queries/GetCustomers/GetCustomersDto.cs" Line="1" Column="1" />
-      <File FileName="Customer_Handler/App/UseCase/CustomerPaymentCard/Command/DeleteCustomerPaymentCard/DeleteCustomerPaymentCardCommandHandler.cs" Line="30" Column="113" />
-      <File FileName="Customer_Handler/App/UseCase/CustomerPaymentCard/Command/PostCustomerPaymentCard/PostCustomerPaymentCardCommand.cs" Line="1" Column="1" />
-      <File FileName="Customer_Handler/App/UseCase/CustomerPaymentCard/Command/PostCustomerPaymentCard/PostCustomerPaymentCardCommandHandler.cs" Line="6" Column="18" />
-      <File FileName="Customer_Handler/App/UseCase/CustomerPaymentCard/Command/PutCustomerPaymentCard/PutCustomerPaymentCardCommandHandler.cs" Line="6" Column="18" />
-      <File FileName="Customer_Handler/App/UseCase/CustomerPaymentCard/Models/CustomerPaymentCardData.cs" Line="1" Column="1" />
-      <File FileName="Customer_Handler/App/UseCase/CustomerPaymentCard/Queries/GetCustomerPaymentCard/GetCustomerPaymentCardDto.cs" Line="1" Column="1" />
-      <File FileName="Customer_Handler/App/UseCase/CustomerPaymentCard/Queries/GetCustomerPaymentCard/GetCustomerPaymentCardQueryHandler.cs" Line="5" Column="18" />
-      <File FileName="Customer_Handler/App/UseCase/CustomerPaymentCard/Queries/GetCustomerPaymentCards/GetCustomerPaymentCardsQueryHandler.cs" Line="5" Column="18" />
-      <File FileName="Customer_Handler/Controllers/CPCController.cs" Line="1" Column="1" />
-      <File FileName="Customer_Handler/Controllers/CustomerController.cs" Line="1" Column="1" />
-      <File FileName="Customer_Handler/Startup.cs" Line="39" Column="118" />
+      <File FileName="Customer_Handler/Properties/launchSettings.json" Line="27" Column="71" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -62,7 +39,9 @@
                 </Node>
               </Node>
               <Node name="Controllers" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
+              <Node name="Properties" expanded="True">
+                <Node name="launchSettings.json" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
