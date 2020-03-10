@@ -1,0 +1,19 @@
+services:
+  product_handler:
+    build:
+      context: /Users/user/Projects/microservice1test/Product_Handler
+      dockerfile: Product_Handler/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORT: '44375'
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: producthandler
+    ports:
+    - published: 45787
+      target: 80
+    - published: 44375
+      target: 443
+    volumes:
+    - /Users/user/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/user/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

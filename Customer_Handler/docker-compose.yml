@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  customer_handler:
+    image: ${DOCKER_REGISTRY-}customerhandler
+    build:
+      context: .
+      dockerfile: Customer_Handler/Dockerfile

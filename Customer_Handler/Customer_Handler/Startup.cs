@@ -36,7 +36,7 @@ namespace Customer_Handler
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddDbContext<IContext>(option => option.UseNpgsql("Host=localhost;Database=microservice1customer;Username=postgres;Password=docker;"));
+            services.AddDbContext<IContext>(option => option.UseNpgsql(Configuration.GetConnectionString("postgre")));
             services.AddMvc().AddFluentValidation(opt => opt.RegisterValidatorsFromAssemblyContaining(typeof(PostCustomerCommandValidation)));
             services.AddMediatR(typeof(GetCustomerQueryHandler).GetTypeInfo().Assembly);
 

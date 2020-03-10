@@ -36,7 +36,7 @@ namespace Product_Handler
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddDbContext<IContext>(option => option.UseNpgsql("Host=localhost;Database=microservice1product;Username=postgres;Password=docker;"));
+            services.AddDbContext<IContext>(option => option.UseNpgsql("Host=pg-docker;Database=microservice1product;Username=postgres;Password=docker;"));
             services.AddMvc().AddFluentValidation(opt => opt.RegisterValidatorsFromAssemblyContaining(typeof(PostProductCommandValidation)));
             services.AddMediatR(typeof(GetProductQueryHandler).GetTypeInfo().Assembly);
 

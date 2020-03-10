@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  product_handler:
+    image: ${DOCKER_REGISTRY-}producthandler
+    build:
+      context: .
+      dockerfile: Product_Handler/Dockerfile

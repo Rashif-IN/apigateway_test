@@ -1,10 +1,10 @@
-﻿<Properties StartupConfiguration="{F107ED41-95D9-4345-B71B-F9A13BD4F7C5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Customer_Handler/Startup.cs">
+﻿<Properties StartupConfiguration="{483D8FB7-25B7-4350-B8BF-5D1FE0F805A0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Customer_Handler/Dockerfile">
     <Files>
-      <File FileName="Customer_Handler/App/Query/BaseDto.cs" Line="1" Column="1" />
-      <File FileName="Customer_Handler/Properties/launchSettings.json" Line="30" Column="2" />
-      <File FileName="Customer_Handler/Controllers/CPCController.cs" Line="18" Column="16" />
-      <File FileName="Customer_Handler/Startup.cs" Line="56" Column="38" />
+      <File FileName="Customer_Handler/App/Query/BaseDto.cs" Line="23" Column="1" />
+      <File FileName="Customer_Handler/Dockerfile" Line="10" Column="18" />
+      <File FileName="Customer_Handler/Properties/launchSettings.json" Line="27" Column="71" />
+      <File FileName="Customer_Handler/appsettings.json" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,27 +12,13 @@
           <Node name="Customer_Handler" expanded="True">
             <Node name="Customer_Handler" expanded="True">
               <Node name="App" expanded="True">
-                <Node name="Interface" expanded="True" />
                 <Node name="Query" expanded="True" />
-                <Node name="UseCase" expanded="True">
-                  <Node name="CustomerPaymentCard" expanded="True">
-                    <Node name="Command" expanded="True">
-                      <Node name="DeleteCustomerPaymentCard" expanded="True" />
-                      <Node name="PostCustomerPaymentCard" expanded="True" />
-                      <Node name="PutCustomerPaymentCard" expanded="True" />
-                    </Node>
-                    <Node name="Models" expanded="True" />
-                    <Node name="Queries" expanded="True">
-                      <Node name="GetCustomerPaymentCard" expanded="True" />
-                      <Node name="GetCustomerPaymentCards" expanded="True" />
-                    </Node>
-                  </Node>
-                </Node>
               </Node>
               <Node name="Controllers" expanded="True" />
               <Node name="Properties" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
+              <Node name="Dockerfile" selected="True" />
             </Node>
+            <Node name="docker-compose" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -41,6 +27,7 @@
   <MonoDevelop.Ide.ItemProperties.Customer__Handler PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
