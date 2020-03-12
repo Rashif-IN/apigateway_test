@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product_Handler", "Product_Handler.csproj", "{CF319B1E-727B-4249-86DA-A5AB4413ABB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF319B1E-727B-4249-86DA-A5AB4413ABB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF319B1E-727B-4249-86DA-A5AB4413ABB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF319B1E-727B-4249-86DA-A5AB4413ABB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF319B1E-727B-4249-86DA-A5AB4413ABB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

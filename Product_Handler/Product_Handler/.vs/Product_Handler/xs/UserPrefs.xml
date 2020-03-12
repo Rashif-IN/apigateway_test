@@ -1,14 +1,16 @@
-﻿<Properties StartupConfiguration="{D6274C19-786B-45DF-8172-CC8907730E91}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Product_Handler/Dockerfile">
+﻿<Properties StartupConfiguration="{CF319B1E-727B-4249-86DA-A5AB4413ABB0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NGINX/Dockerfile">
     <Files>
-      <File FileName="Product_Handler/Dockerfile" Line="12" Column="33" />
+      <File FileName="NGINX/Dockerfile" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Product_Handler" expanded="True">
             <Node name="Product_Handler" expanded="True">
-              <Node name="Dockerfile" selected="True" />
+              <Node name="NGINX" expanded="True">
+                <Node name="Dockerfile" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -18,7 +20,6 @@
   <MonoDevelop.Ide.ItemProperties.Product__Handler PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

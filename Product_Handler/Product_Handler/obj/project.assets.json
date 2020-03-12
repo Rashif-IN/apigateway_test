@@ -4500,11 +4500,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/user/Projects/microservice1test/Product_Handler/Product_Handler/Product_Handler.csproj",
+      "projectUniqueName": "/Users/user/Projects/api_gateway_test/Product_Handler/Product_Handler/Product_Handler.csproj",
       "projectName": "Product_Handler",
-      "projectPath": "/Users/user/Projects/microservice1test/Product_Handler/Product_Handler/Product_Handler.csproj",
+      "projectPath": "/Users/user/Projects/api_gateway_test/Product_Handler/Product_Handler/Product_Handler.csproj",
       "packagesPath": "/Users/user/.nuget/packages/",
-      "outputPath": "/Users/user/Projects/microservice1test/Product_Handler/Product_Handler/obj/",
+      "outputPath": "/Users/user/Projects/api_gateway_test/Product_Handler/Product_Handler/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/user/.config/NuGet/NuGet.Config"
